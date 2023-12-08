@@ -10,7 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 		features = "classpath:/features",
 		glue= "com.happyfox.helpdesk.step_definitions",
 		dryRun = false,
-		monochrome= true
+		monochrome= true,
+		tags ="@TestRun2",
+		plugin ={"pretty", "html:target/cucumber.html", "json:target/cucumber.json"}
 		)
 public class TestRunner {
 

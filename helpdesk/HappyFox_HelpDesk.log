@@ -1,56 +1,567 @@
-2023-11-24 16:58:56,994 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
-2023-11-24 16:58:57,005 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
-2023-11-24 16:58:57,006 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
-2023-11-24 16:58:57,018 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
-2023-11-24 16:58:57,024 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
-2023-11-24 16:59:30,403 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
-2023-11-24 17:00:12,489 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="hf-left-nav_group_item_text hf-u-text-overflow">...</a> is not clickable at point (110, 130). Other element would receive the click: <section class="hf-u-content-overlay  hf-overlay-fade-in"></section>
-  (Session info: chrome=119.0.6045.160)
+2023-12-08 18:56:51,393 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 18:56:51,406 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 18:56:51,419 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 18:56:51,420 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 18:56:59,159 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 18:56:59,486 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 18:56:59,498 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 18:57:14,399 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 18:57:33,132 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 18:57:51,436 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 18:58:07,237 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 18:58:13,759 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 18:58:13,796 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 18:58:13,796 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 18:58:13,799 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 18:58:13,799 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 18:58:22,440 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Priority as Default
+2023-12-08 18:58:56,935 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Status as Default
+2023-12-08 18:59:14,155 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 18:59:29,736 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 18:59:49,776 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Reply to the ticket Using canned action
+2023-12-08 18:59:51,478 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for status
+2023-12-08 18:59:52,612 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for priority
+2023-12-08 19:00:10,900 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:00:10,902 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:00:10,904 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:00:10,905 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:03:55,328 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:03:55,342 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:03:55,369 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:03:55,370 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:04:02,565 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 19:04:02,710 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 19:04:02,743 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 19:04:17,756 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:04:35,232 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 19:05:00,668 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 19:05:20,342 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 19:05:26,907 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 19:05:26,948 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:05:26,948 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:05:26,950 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:05:26,951 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:05:41,227 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ff5f0fe9f55da2997c55425f9d6af3bf, clickElement {id=FA8C4D17850516C441FEAA1BEFEBAAA4_element_78}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50622}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50622/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ff5f0fe9f55da2997c55425f9d6af3bf)] -> xpath: //a[contains(text(),'Priorities')]]
-Session ID: ff5f0fe9f55da2997c55425f9d6af3bf
-2023-11-24 17:00:25,510 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="hf-left-nav_group_item_text hf-u-text-overflow">...</a> is not clickable at point (109, 103). Other element would receive the click: <section class="hf-u-content-overlay  hf-overlay-fade-in"></section>
-  (Session info: chrome=119.0.6045.160)
+Command: [aa0888274fa9bef5f32114dcfa521761, getElementText {id=1907A30E8810ADA85FD4B8EAD23EB7C5_element_186}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58540/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aa0888274fa9bef5f32114dcfa521761)] -> xpath: //tbody[@class='lt-body']/tr/td[2]]
+Session ID: aa0888274fa9bef5f32114dcfa521761
+2023-12-08 19:05:57,208 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 19:06:08,879 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:06:19,621 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] java.lang.IndexOutOfBoundsException: Index 10 out of bounds for length 10
+2023-12-08 19:07:19,794 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Reply')]"}
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ff5f0fe9f55da2997c55425f9d6af3bf, clickElement {id=FA8C4D17850516C441FEAA1BEFEBAAA4_element_167}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50622}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50622/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ff5f0fe9f55da2997c55425f9d6af3bf)] -> xpath: //a[contains(text(),'Statuses')]]
-Session ID: ff5f0fe9f55da2997c55425f9d6af3bf
-2023-11-24 17:00:25,538 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
-2023-11-24 17:00:25,539 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
-2023-11-24 17:00:25,539 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
-2023-11-24 17:00:25,543 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
-2023-11-24 17:01:59,462 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
-2023-11-24 17:01:59,473 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
-2023-11-24 17:01:59,474 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
-2023-11-24 17:01:59,484 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
-2023-11-24 17:01:59,489 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
-2023-11-24 17:02:27,256 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
-2023-11-24 17:03:52,986 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
-2023-11-24 17:03:52,986 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
-2023-11-24 17:03:52,987 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
-2023-11-24 17:03:52,990 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
-2023-11-24 17:05:05,968 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.name: username
+Command: [aa0888274fa9bef5f32114dcfa521761, findElement {using=xpath, value=//span[contains(text(),'Reply')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58540/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa0888274fa9bef5f32114dcfa521761
+2023-12-08 19:08:20,183 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:08:20,183 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:08:20,186 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:08:20,193 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:08:21,757 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="hf-left-nav_group_item_text hf-u-text-overflow">...</a> is not clickable at point (110, 130). Other element would receive the click: <div class="hf-global-search_overlay hf-is-active"></div>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa0888274fa9bef5f32114dcfa521761, clickElement {id=A777CFDF948552E024D71336BC25BE8A_element_343}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58540/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aa0888274fa9bef5f32114dcfa521761)] -> xpath: //a[contains(text(),'Priorities')]]
+Session ID: aa0888274fa9bef5f32114dcfa521761
+2023-12-08 19:09:46,728 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Choose Status')]"}
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa0888274fa9bef5f32114dcfa521761, findElement {using=xpath, value=//span[contains(text(),'Choose Status')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58540/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa0888274fa9bef5f32114dcfa521761
+2023-12-08 19:15:33,458 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:15:33,468 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:15:33,477 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:15:33,478 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:15:39,490 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 19:15:39,649 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 19:15:39,660 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 19:15:45,300 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:15:54,925 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 19:16:13,437 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 19:16:24,571 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 19:16:31,369 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 19:16:31,400 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:16:31,401 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:16:31,403 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:16:31,404 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:16:40,322 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5248727759922f6d4c567493456966d7, getElementText {id=A1550FA7EF3403A3F34F8ECE630843BB_element_97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58996/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5248727759922f6d4c567493456966d7)] -> xpath: //tbody[@class='lt-body']/tr/td[2]]
+Session ID: 5248727759922f6d4c567493456966d7
+2023-12-08 19:17:00,328 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 19:17:12,201 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:17:22,962 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] java.lang.IndexOutOfBoundsException: Index 10 out of bounds for length 10
+2023-12-08 19:18:23,103 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Reply')]"}
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5248727759922f6d4c567493456966d7, findElement {using=xpath, value=//span[contains(text(),'Reply')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58996/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5248727759922f6d4c567493456966d7
+2023-12-08 19:19:23,361 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:19:23,361 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:19:23,363 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:19:23,364 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:19:24,547 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="hf-top-bar_title_text hf-font-light" title="..." data-test-id="current-module">Manage</span> is not clickable at point (117, 22). Other element would receive the click: <div class="hf-toast-message  hf-hide">...</div>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5248727759922f6d4c567493456966d7, clickElement {id=D9646D4A59E507F2BAB972B53ACB0AAB_element_298}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58996/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5248727759922f6d4c567493456966d7)] -> xpath: //div[@data-test-id='module-switcher_trigger']/span]
+Session ID: 5248727759922f6d4c567493456966d7
+2023-12-08 19:19:34,185 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5248727759922f6d4c567493456966d7, findElements {using=xpath, value=//tbody[@class='lt-body']/tr/td[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58996/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5248727759922f6d4c567493456966d7
+2023-12-08 19:20:20,829 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:20:20,840 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:20:20,851 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:20:20,852 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:20:26,864 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 19:20:27,001 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 19:20:27,015 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 19:20:32,871 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:20:41,159 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 19:21:02,719 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 19:21:12,831 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 19:21:19,239 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 19:21:19,278 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:21:19,278 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:21:19,281 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:21:19,282 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:21:27,633 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Priority as Default
+2023-12-08 19:21:55,495 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Status as Default
+2023-12-08 19:22:17,561 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 19:22:35,837 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:23:02,001 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Reply to the ticket Using canned action
+2023-12-08 19:23:03,343 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for status
+2023-12-08 19:23:04,196 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for priority
+2023-12-08 19:23:20,310 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:23:20,311 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:23:20,313 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:23:20,314 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:23:36,952 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Low
+2023-12-08 19:23:37,096 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the priority.
+2023-12-08 19:23:41,401 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="hf-left-nav_group_item_text hf-u-text-overflow">...</a> is not clickable at point (109, 103). Other element would receive the click: <div class="hf-confirmation-overlay translucent hf-js-confirmation-overlay"></div>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9139328af6b7399abb712e835b44ca1, clickElement {id=07EE2C9A1DD1C48E487E0F3E268EF377_element_928}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59348}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59348/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c9139328af6b7399abb712e835b44ca1)] -> xpath: //a[contains(text(),'Statuses')]]
+Session ID: c9139328af6b7399abb712e835b44ca1
+2023-12-08 19:28:37,169 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:28:37,182 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:28:37,192 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:28:37,193 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:28:43,999 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 19:28:44,153 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 19:28:44,173 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 19:28:54,097 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:29:16,412 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 19:29:37,854 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 19:29:58,086 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 19:30:04,766 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 19:30:04,807 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:30:04,808 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:30:04,810 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:30:04,811 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:30:13,715 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Priority as Default
+2023-12-08 19:30:39,060 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Status as Default
+2023-12-08 19:30:58,528 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 19:31:10,088 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:31:30,160 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Reply to the ticket Using canned action
+2023-12-08 19:31:31,262 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for status
+2023-12-08 19:31:32,275 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for priority
+2023-12-08 19:31:48,712 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:31:48,713 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:31:48,715 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:31:48,716 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:32:04,285 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Low
+2023-12-08 19:32:04,423 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the priority.
+2023-12-08 19:32:08,711 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="hf-left-nav_group_item_text hf-u-text-overflow">...</a> is not clickable at point (109, 103). Other element would receive the click: <div class="hf-confirmation-overlay translucent hf-js-confirmation-overlay"></div>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7517952acbe7d521066af0a1217ce68b, clickElement {id=7A2C40CD871CA01A720A88913B479408_element_925}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60394/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7517952acbe7d521066af0a1217ce68b)] -> xpath: //a[contains(text(),'Statuses')]]
+Session ID: 7517952acbe7d521066af0a1217ce68b
+2023-12-08 19:37:11,875 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:37:11,885 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:37:11,895 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:37:11,896 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:37:18,251 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 19:37:18,376 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 19:37:18,392 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 19:37:29,345 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:37:49,579 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 19:38:08,767 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 19:38:26,677 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 19:38:27,967 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="hf-left-nav_group_item_text hf-u-text-overflow">...</a> is not clickable at point (110, 130). Other element would receive the click: <section class="hf-u-content-overlay  hf-overlay-fade-in"></section>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67e908d5b6aabf05263ee9866bc7efc3, clickElement {id=A6CFC1A0C9BF2DF2B184D379649CE4D9_element_81}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61169/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (67e908d5b6aabf05263ee9866bc7efc3)] -> xpath: //a[contains(text(),'Priorities')]]
+Session ID: 67e908d5b6aabf05263ee9866bc7efc3
+2023-12-08 19:38:27,986 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:38:27,987 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:38:27,989 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:38:27,990 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:38:42,047 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="hf-left-nav_group_item_text hf-u-text-overflow">...</a> is not clickable at point (109, 103). Other element would receive the click: <section class="hf-u-content-overlay  hf-overlay-fade-in"></section>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67e908d5b6aabf05263ee9866bc7efc3, clickElement {id=A6CFC1A0C9BF2DF2B184D379649CE4D9_element_186}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61169/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (67e908d5b6aabf05263ee9866bc7efc3)] -> xpath: //a[contains(text(),'Statuses')]]
+Session ID: 67e908d5b6aabf05263ee9866bc7efc3
+2023-12-08 19:38:43,968 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67e908d5b6aabf05263ee9866bc7efc3, get {url=https://interview2.supporthive.com/new/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61169/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67e908d5b6aabf05263ee9866bc7efc3
+2023-12-08 19:38:45,139 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67e908d5b6aabf05263ee9866bc7efc3, get {url=https://interview2.supporthive.com/staff/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61169/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67e908d5b6aabf05263ee9866bc7efc3
+2023-12-08 19:38:45,307 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67e908d5b6aabf05263ee9866bc7efc3, findElement {using=xpath, value=//span[contains(text(),'Reply')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61169/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67e908d5b6aabf05263ee9866bc7efc3
+2023-12-08 19:38:45,459 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:38:45,460 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:38:45,462 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:38:45,463 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:38:45,486 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67e908d5b6aabf05263ee9866bc7efc3, findElement {using=xpath, value=//div[@data-test-id='module-switcher_trigger']/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61169/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67e908d5b6aabf05263ee9866bc7efc3
+2023-12-08 19:38:48,692 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67e908d5b6aabf05263ee9866bc7efc3, findElement {using=xpath, value=//a[contains(@href,'/staff/manage/statuses')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61169/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67e908d5b6aabf05263ee9866bc7efc3
+2023-12-08 19:41:19,807 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:41:19,817 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:41:19,827 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:41:19,828 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:41:27,227 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 19:41:27,352 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 19:41:27,366 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 19:41:37,825 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:41:51,093 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 19:42:13,442 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 19:42:32,447 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 19:42:39,472 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 19:42:39,498 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:42:39,499 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:42:39,501 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:42:39,502 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:42:50,168 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Priority as Default
+2023-12-08 19:43:23,933 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Status as Default
+2023-12-08 19:43:46,058 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 19:44:02,656 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:44:25,038 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Reply to the ticket Using canned action
+2023-12-08 19:44:26,121 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for status
+2023-12-08 19:44:26,986 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for priority
+2023-12-08 19:44:43,293 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:44:43,295 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:44:43,298 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:44:43,299 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:44:59,043 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Low
+2023-12-08 19:44:59,189 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the priority.
+2023-12-08 19:45:03,459 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-test-id="manage-statuses-left-nav" title="Statuses" href="/staff/manage/statuses" id="ember1309" class="hf-left-nav_group_item ember-view">...</a> is not clickable at point (164, 103). Other element would receive the click: <div class="hf-confirmation-overlay translucent hf-js-confirmation-overlay"></div>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0639dd5370668741e1b645f7c16cc361, clickElement {id=BD34F4A7CD07B618710954D24A4E3478_element_989}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61705}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61705/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0639dd5370668741e1b645f7c16cc361)] -> xpath: //a[contains(@href,'/staff/manage/statuses')]]
+Session ID: 0639dd5370668741e1b645f7c16cc361
+2023-12-08 19:52:33,856 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:52:33,866 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:52:33,874 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:52:33,875 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:52:40,872 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 19:52:41,083 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 19:52:41,136 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 19:52:51,981 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:53:10,851 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 19:53:31,195 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 19:53:51,071 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 19:53:58,212 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 19:53:58,235 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:53:58,235 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:53:58,237 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:53:58,238 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:54:07,815 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Priority as Default
+2023-12-08 19:54:36,376 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Status as Default
+2023-12-08 19:55:09,776 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 19:55:22,825 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 19:55:44,176 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Reply to the ticket Using canned action
+2023-12-08 19:55:45,276 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for status
+2023-12-08 19:55:46,089 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for priority
+2023-12-08 19:56:02,273 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:56:02,274 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:56:02,276 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:56:02,276 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:56:17,732 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Low
+2023-12-08 19:56:17,876 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the priority.
+2023-12-08 19:56:46,979 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Closed
+2023-12-08 19:56:56,162 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the status.
+2023-12-08 19:56:56,640 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Logout from the agent portal 
+2023-12-08 19:56:57,138 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Terminate the Driver
+2023-12-08 19:58:59,701 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 19:58:59,714 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 19:58:59,731 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 19:58:59,732 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 19:59:06,976 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 19:59:07,103 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 19:59:07,120 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 19:59:09,080 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b83de36234d8e4732d2e22d23dd7549e, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62831/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b83de36234d8e4732d2e22d23dd7549e
+2023-12-08 19:59:12,146 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b83de36234d8e4732d2e22d23dd7549e, findElement {using=xpath, value=//div[@data-test-id='module-switcher_trigger']/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62831/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b83de36234d8e4732d2e22d23dd7549e
+2023-12-08 20:01:38,261 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:01:38,274 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:01:38,288 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:01:38,289 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:01:47,659 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 20:01:48,001 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 20:01:48,030 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 20:01:57,715 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 20:02:02,750 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0914e672309f85fe364e885fb6d64ab5, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62969}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62969/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0914e672309f85fe364e885fb6d64ab5
+2023-12-08 20:02:05,787 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0914e672309f85fe364e885fb6d64ab5, findElement {using=xpath, value=//div[@data-test-id='module-switcher_trigger']/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62969}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62969/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0914e672309f85fe364e885fb6d64ab5
+2023-12-08 20:02:07,775 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0914e672309f85fe364e885fb6d64ab5, findElement {using=xpath, value=//button[@class='hf-mod-create']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62969}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62969/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0914e672309f85fe364e885fb6d64ab5
+2023-12-08 20:02:07,952 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0914e672309f85fe364e885fb6d64ab5, findElement {using=xpath, value=//a[contains(text(),'Priorities')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62969}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62969/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0914e672309f85fe364e885fb6d64ab5
+2023-12-08 20:03:01,987 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:03:01,999 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:03:02,009 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:03:02,013 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:03:12,161 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 20:03:12,473 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 20:03:12,568 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 20:03:25,311 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 20:03:55,021 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 20:04:19,024 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 20:04:37,504 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 20:04:45,951 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 20:04:45,985 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:04:45,985 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:04:45,987 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:04:45,988 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:05:08,131 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Priority as Default
+2023-12-08 20:05:50,948 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Status as Default
+2023-12-08 20:06:08,803 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 20:06:27,454 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 20:06:54,953 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Reply to the ticket Using canned action
+2023-12-08 20:06:56,927 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for status
+2023-12-08 20:06:58,032 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for priority
+2023-12-08 20:07:14,946 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:07:14,947 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:07:14,953 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:07:14,954 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:07:36,529 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Low
+2023-12-08 20:07:36,755 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the priority.
+2023-12-08 20:08:21,796 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Closed
+2023-12-08 20:08:31,336 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the status.
+2023-12-08 20:08:32,147 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Logout from the agent portal 
+2023-12-08 20:08:32,801 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Terminate the Driver
+2023-12-08 20:12:25,957 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:12:25,969 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:12:25,981 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:12:25,981 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:12:35,710 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 20:12:35,974 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 20:12:36,013 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 20:12:48,032 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 20:13:05,871 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 20:13:33,286 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 20:13:56,998 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 20:14:05,461 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 20:14:05,513 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:14:05,513 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:14:05,517 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:14:05,518 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:14:18,126 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8211e3130d07262634d8f618f55d8a5, getElementText {id=CB617F7D9D712D54DFE34F4746C4B6DD_element_104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63702/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b8211e3130d07262634d8f618f55d8a5)] -> xpath: //tbody[@class='lt-body']/tr/td[2]]
+Session ID: b8211e3130d07262634d8f618f55d8a5
+2023-12-08 20:14:46,737 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 20:14:59,591 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 20:15:17,463 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] java.lang.IndexOutOfBoundsException: Index 10 out of bounds for length 10
+2023-12-08 20:16:08,799 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //span[contains(text(),'Reply')]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: driver.version: RemoteWebDriver
-2023-11-24 17:05:06,571 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2023-12-08 20:16:09,132 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:16:09,133 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:16:09,136 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:16:09,138 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:16:09,156 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=119.0.6045.160)
+  (Session info: chrome=119.0.6045.200)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68ab3c628a9abea3658f8a354ca4a44a, findElement {using=xpath, value=//span[contains(text(),'Reply')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51004}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51004/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68ab3c628a9abea3658f8a354ca4a44a
-2023-11-24 17:05:06,595 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
-2023-11-24 17:05:06,596 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
-2023-11-24 17:05:06,597 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
-2023-11-24 17:05:06,611 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+Command: [b8211e3130d07262634d8f618f55d8a5, findElement {using=xpath, value=//div[@data-test-id='module-switcher_trigger']/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63702/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8211e3130d07262634d8f618f55d8a5
+2023-12-08 20:16:12,324 [ERROR] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8211e3130d07262634d8f618f55d8a5, findElement {using=xpath, value=//a[contains(@href,'/staff/manage/statuses')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Deepan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63702/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8211e3130d07262634d8f618f55d8a5
+2023-12-08 20:16:33,462 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:16:33,479 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:16:33,491 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:16:33,492 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:16:41,969 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation launchbrowser
+2023-12-08 20:16:42,286 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] initWebElements
+2023-12-08 20:16:42,351 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] implicitlyWait
+2023-12-08 20:16:53,682 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 20:17:11,170 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] the user is logged in successfully and is on Ticket Page.
+2023-12-08 20:17:38,004 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Navigate to Status & Priority pages
+2023-12-08 20:17:55,547 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a status values
+2023-12-08 20:18:04,067 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Created a priority values
+2023-12-08 20:18:04,097 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:18:04,097 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:18:04,114 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:18:04,115 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:18:27,856 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Priority as Default
+2023-12-08 20:19:00,900 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Make Status as Default
+2023-12-08 20:19:26,651 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] New Ticket is Created
+2023-12-08 20:19:43,475 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Common Login
+2023-12-08 20:20:10,689 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Reply to the ticket Using canned action
+2023-12-08 20:20:12,308 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for status
+2023-12-08 20:20:13,484 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Verify the ticket property changes for priority
+2023-12-08 20:20:30,472 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Executed Started
+2023-12-08 20:20:30,472 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Instantiation the CommonUtils
+2023-12-08 20:20:30,475 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Logging the Properties File
+2023-12-08 20:20:30,476 [INFO ] com.happyfox.helpdesk.step_definitions.Common_Step_Definition [main] Checking Driver is NULL or NOT?
+2023-12-08 20:20:51,142 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Low
+2023-12-08 20:20:51,345 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the priority.
+2023-12-08 20:21:28,867 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Select the Dropdown Closed
+2023-12-08 20:21:38,229 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Delete the status.
+2023-12-08 20:21:39,127 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Logout from the agent portal 
+2023-12-08 20:21:39,812 [INFO ] com.happyfox.helpdesk.step_definitions.HappyFox_HelpDesk_Support_Step_Def [main] Terminate the Driver

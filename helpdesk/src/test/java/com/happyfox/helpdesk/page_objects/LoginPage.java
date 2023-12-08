@@ -29,17 +29,29 @@ public class LoginPage {
 
 	@FindBy(xpath = "//input[@type='submit']")
 	private WebElement LOGIN;
-
-	public WebElement getUSERNAME() {
-		return USERNAME;
+	
+	public void enterUserName(String userName) {
+		USERNAME.sendKeys(userName);
 	}
 
-	public WebElement getPASSWORD() {
-		return PASSWORD;
+	public void enterPassword(String password) {
+		PASSWORD.sendKeys(password);
 	}
+	public void clickLoginButton() {
+		LOGIN.click();
+	}
+//	public WebElement getUSERNAME() {
+//		return USERNAME;
+//	}
+//
+//	public WebElement getPASSWORD() {
+//		return PASSWORD;
+//	}
+//
+//	public WebElement getLOGIN() {
+//		return LOGIN;
+//	}
 
-	public WebElement getLOGIN() {
-		return LOGIN;
-	}
+	
 
 }

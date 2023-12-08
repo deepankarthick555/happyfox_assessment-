@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.interactions.Actions;
 
 import com.happyfox.helpdesk.constants.Constants;
@@ -28,20 +29,16 @@ import io.cucumber.java.en.When;
 public class HappyFox_HelpDesk_Support_Step_Def {
 
 	private static final Logger LOGGER = LogManager.getLogger(HappyFox_HelpDesk_Support_Step_Def.class);
-	private static final String Verfiy_ = null;
 
 	@Given("the user is logged in successfully and is on Agent Portal.")
 	public void the_user_is_logged_in_successfully_and_is_on_agent_portal() {
 
 		try {
 
-			DriverManager.getDriver().get("https://interview2.supporthive.com/staff/");
+			CommonUtils.getInstance().login();
+			LOGGER.info("Common Login");
 
-			LoginPage.getInstance().getUSERNAME().sendKeys(Constants.USERNAME);
-			LoginPage.getInstance().getPASSWORD().sendKeys(Constants.PASSWORD);
-			LoginPage.getInstance().getLOGIN().click();
-
-			Thread.sleep(6000);
+			Thread.sleep(5000);
 			String URL = DriverManager.getDriver().getCurrentUrl();
 
 			if (URL.contains("_pending")) {
@@ -58,11 +55,12 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 	public void navigate_to_status_priority_pages_from_the_menu_on_the_top_left_corner() throws IOException {
 
 		try {
-			Thread.sleep(4000);
-			TicketsPage.getInstance().getTICKETS().click();
-			TicketsPage.getInstance().getSTATUSES().click();
-			Thread.sleep(4000);
+			Thread.sleep(3000);
+			TicketsPage.getInstance().clickTickets();
+			TicketsPage.getInstance().clickStatuses();
+			Thread.sleep(3000);
 
+			LOGGER.info("Navigate to Status & Priority pages");
 		} catch (Exception e) {
 			LOGGER.error(e);
 		}
@@ -74,15 +72,14 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 
 		try {
 			ArrayList<String> data = dataDriven.getInstance().getData("STATUSES");
-			TicketsPage.getInstance().getADDSTATUSES().click();
+			TicketsPage.getInstance().clickAddStatuses();
+
+			StatusPage.getInstance().enterStatusName(data.get(1));
+			StatusPage.getInstance().enterDescriptionName(data.get(3));
+			StatusPage.getInstance().addStatusButton();
 			Thread.sleep(3000);
 
-			StatusPage.getInstance().getSTATUS_NAME().sendKeys(data.get(1));
-//			StatusPage.getInstance().getSTATUS_BEHAVIOUR().sendKeys(data.get(2));
-			StatusPage.getInstance().getSTATUS_DESCRIPTION().sendKeys(data.get(3));
-			StatusPage.getInstance().getADD_STATUS_BUTTON().click();
-			Thread.sleep(3000);
-
+			LOGGER.info("Created a status values");
 		} catch (Exception e) {
 			LOGGER.error(e);
 		}
@@ -92,14 +89,15 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 	public void create_a_priority_values_provided_in_the_sheet() throws IOException {
 		try {
 			ArrayList<String> data = dataDriven.getInstance().getData("PRIORITIES");
-			TicketsPage.getInstance().getPRIORITIES().click();
-			TicketsPage.getInstance().getADDPRIORITIES().click();
+			TicketsPage.getInstance().clickPriorities();
+			TicketsPage.getInstance().clickAddPriorities();
 
-			PriorityPage.getInstance().getPRIORITY_NAME().sendKeys(data.get(1));
-			PriorityPage.getInstance().getPRIORITY_DESCRIPTION().sendKeys(data.get(2));
-			PriorityPage.getInstance().getPRIORITY_ADD_BUTTON().click();
+			PriorityPage.getInstance().enterPriorityName(data.get(1));
+			PriorityPage.getInstance().enterDescriptionName(data.get(2));
+			PriorityPage.getInstance().clickPriorityAddButton();
 			Thread.sleep(3000);
 
+			LOGGER.info("Created a priority values");
 		} catch (Exception e) {
 			LOGGER.error(e);
 		}
@@ -108,32 +106,37 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 	@Then("Make the created status and priority as default.")
 	public void make_the_created_status_and_priority_as_default() throws IOException, InterruptedException {
 		try {
-			// Making Priority as Default
+			// Make Priority as Default
 			ArrayList<String> priorityData = dataDriven.getInstance().getData("PRIORITIES");
-			List<WebElement> PriorityName = PriorityPage.getInstance().getPRIORITY_NAME_TABLE();
-			List<WebElement> DefaultPriority = PriorityPage.getInstance().getDEFAULT_PRIORITY_TABLE();
-			Thread.sleep(3000);
+
+			List<WebElement> PriorityName = PriorityPage.getInstance().getPriorityNameTable();
+			List<WebElement> DefaultPriority = PriorityPage.getInstance().getDefaultPriorityTable();
+			Thread.sleep(2000);
 			for (int i = 0; i < PriorityName.size(); i++) {
 //				System.out.println(PriorityName.get(i).getText());
 				if (PriorityName.get(i).getText().equalsIgnoreCase(priorityData.get(1))) {
 
 					DefaultPriority.get(i).click();
+					LOGGER.info("Make Priority as Default");
+					break;
 
 				}
 			}
-			// Making Status as Default
+			// Make Status as Default
 			ArrayList<String> statusData = dataDriven.getInstance().getData("STATUSES");
-			TicketsPage.getInstance().getMANAGE_STATUSES().click();
-			Thread.sleep(3000);
+			TicketsPage.getInstance().clickManageStatuses();
+			Thread.sleep(2000);
 
-			List<WebElement> StatusName = PriorityPage.getInstance().getPRIORITY_NAME_TABLE();
-			List<WebElement> DefaultStatus = PriorityPage.getInstance().getDEFAULT_PRIORITY_TABLE();
-			Thread.sleep(3000);
+			List<WebElement> StatusName = PriorityPage.getInstance().getPriorityNameTable();
+			List<WebElement> DefaultStatus = PriorityPage.getInstance().getDefaultPriorityTable();
+			Thread.sleep(2000);
 			for (int i = 0; i < StatusName.size(); i++) {
 //				System.out.println(StatusName.get(i).getText());
 				if (StatusName.get(i).getText().equalsIgnoreCase(statusData.get(1))) {
 
 					DefaultStatus.get(i).click();
+					LOGGER.info("Make Status as Default");
+					break;
 
 				}
 			}
@@ -144,23 +147,33 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 
 	}
 
-	@Given("Create a ticket from new ticket page on support center.")
-	public void create_a_ticket_from_new_ticket_page_on_support_center() throws IOException {
+	@When("Create a ticket from new ticket page on support center.")
+	public void create_a_ticket_from_new_ticket_page_on_support_center() throws IOException, InterruptedException {
 
 		try {
-			ArrayList<String> data = dataDriven.getInstance().getData("TICKETCREATION");
+			ArrayList<String> ticketCreationData = dataDriven.getInstance().getData("TICKETCREATION");
 
-			DriverManager.getDriver().navigate().to(Constants.TICKET_PAGE_URL);
-			NewTicketPage.getInstance().getNEW_TICKET_SUBJECT().sendKeys(data.get(1));
-			NewTicketPage.getInstance().getNEW_TICKET_MESSAGE().sendKeys(data.get(2));
-			NewTicketPage.getInstance().getNEW_TICKET_FULL_NAME().sendKeys(data.get(3));
-			NewTicketPage.getInstance().getNEW_TICKET_EMAIL().sendKeys(data.get(4));
-			NewTicketPage.getInstance().getNEW_TICKET_PHONE().sendKeys(data.get(5));
-			Thread.sleep(3000);
-			NewTicketPage.getInstance().getCREATE_TICKET().click();
+			DriverManager.getDriver().get(Constants.TICKET_PAGE_URL);
+			DriverManager.getDriver().get(Constants.TICKET_PAGE_URL);
+
+			NewTicketPage.getInstance().enterNewTicketSubject(ticketCreationData.get(1));
+			NewTicketPage.getInstance().enterNewTicketMessage(ticketCreationData.get(2));
+			NewTicketPage.getInstance().enterNewTicketFullName(ticketCreationData.get(3));
+			NewTicketPage.getInstance().enterNewTicketEmail(ticketCreationData.get(4));
+			NewTicketPage.getInstance().enterNewTicketPhone(ticketCreationData.get(5));
+
+			Thread.sleep(2000);
+			NewTicketPage.getInstance().clickCreateTicketButton();
+
 			Thread.sleep(4000);
+			String ActualTitle = NewTicketPage.getInstance().getTitleOfTicketPage();
+			String ExcpectedTitle = ticketCreationData.get(6);
+			Assert.assertEquals(ActualTitle, ExcpectedTitle);
+			LOGGER.info("New Ticket is Created");
+
 			CommonUtils.getInstance().takeScreenshot();
 			Thread.sleep(2000);
+
 		} catch (Exception e) {
 			LOGGER.error(e);
 		}
@@ -169,20 +182,21 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 
 	@When("Log in to the agent portal and verify that the ticket is created with default status and default priority.")
 	public void log_in_to_the_agent_portal_and_verify_that_the_ticket_is_created_with_default_status_and_default_priority()
-			throws InterruptedException, IOException {
+			throws IOException, InterruptedException {
 		try {
-			ArrayList<String> data = dataDriven.getInstance().getData("STATUSES");
-			ArrayList<String> data1 = dataDriven.getInstance().getData("PRIORITIES");
+
+			ArrayList<String> statusData = dataDriven.getInstance().getData("STATUSES");
+			ArrayList<String> priorityData = dataDriven.getInstance().getData("PRIORITIES");
 
 			DriverManager.getDriver().get(Constants.AGENT_LOGIN_URL);
-			LoginPage.getInstance().getUSERNAME().sendKeys(Constants.USERNAME);
-			LoginPage.getInstance().getPASSWORD().sendKeys(Constants.PASSWORD);
-			LoginPage.getInstance().getLOGIN().click();
+			LOGGER.info("Common Login");
 
 			Thread.sleep(10000);
-			List<WebElement> StatusName = PendingTicketPage.getInstance().getPENDING_TICKET_TABLE_STATUS_NAME();
+			List<WebElement> StatusName = PendingTicketPage.getInstance().getPendingTicketTableStatusName();
+
 			for (int i = 0; i <= StatusName.size(); i++) {
-				if (StatusName.get(i).getText().equalsIgnoreCase(data.get(1))) {
+
+				if (StatusName.get(i).getText().equalsIgnoreCase(statusData.get(1))) {
 //					System.out.println(StatusName.get(i).getText());
 					StatusName.get(i).click();
 					break;
@@ -190,19 +204,15 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 			}
 
 			Thread.sleep(3000);
-			PendingTicketPage.getInstance().getPENDING_TICKET_SUBJECT_NAME().click();
+			PendingTicketPage.getInstance().clickPendingTicketSubjectName();
 
-			Thread.sleep(2000);
-			String Actual_Default_Status = PendingTicketPage.getInstance().getPENDING_TICKET_DEFAULT_STATUS().getText();
-			LOGGER.info(Actual_Default_Status);
-			String Excepted_Status = data.get(1);
+			String Actual_Default_Status = PendingTicketPage.getInstance().getTextPendingTicketDefaultStatus();
+			String Excepted_Status = statusData.get(1);
 			Assert.assertEquals(Actual_Default_Status, Excepted_Status);
 
-			String Actual_Default_Priority = PendingTicketPage.getInstance().getPENDING_TICKET_DEFAULT_PRIORITY()
-					.getText();
-			LOGGER.info(Actual_Default_Priority);
-//			String Excepted_Priority = data1.get(1);
-//			Assert.assertEquals(Actual_Default_Priority,Excepted_Priority);
+			String Actual_Default_Priority = PendingTicketPage.getInstance().getTextPendingTicketDefaultPriority();
+			String Excepted_Priority = priorityData.get(1);
+			Assert.assertEquals(Actual_Default_Priority, Excepted_Priority);
 
 		} catch (Exception e) {
 			LOGGER.error(e);
@@ -215,13 +225,11 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 		try {
 			ArrayList<String> data = dataDriven.getInstance().getData("ACTION");
 
-			PendingTicketPage.getInstance().getPENDING_TICKET_REPLAY().click();
+			PendingTicketPage.getInstance().clickPendingTicketRepay();
+			PendingTicketPage.getInstance().enterPendingTicketMessageBox(data.get(1));
 
-			PendingTicketPage.getInstance().getPENDING_TICKET_MESSAGE_BOX().sendKeys(data.get(1));
+			LOGGER.info("Reply to the ticket Using canned action");
 
-			PendingTicketPage.getInstance().getPENDING_TICKET_ADD_REPLAY().click();
-
-			System.out.println("Done");
 		} catch (Exception e) {
 			LOGGER.error(e);
 
@@ -230,22 +238,159 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 	}
 
 	@Then("Verify the ticket property changes for status, priority and tags.")
-	public void verify_the_ticket_property_changes_for_status_priority_and_tags() {
+	public void verify_the_ticket_property_changes_for_status_priority_and_tags()
+			throws IOException, InterruptedException {
+		try {
+			ArrayList<String> data = dataDriven.getInstance().getData("CANNED ACTION");
+
+			// Property change for Status
+			PendingTicketPage.getInstance().clickCannedActionStatus();
+			List<WebElement> StatusList = PendingTicketPage.getInstance().getTextCannedActionStatusList();
+
+			for (int i = 0; i <= StatusList.size(); i++) {
+				if (StatusList.get(i).getText().equalsIgnoreCase(data.get(1))) {
+					StatusList.get(i).click();
+					LOGGER.info("Verify the ticket property changes for status");
+					break;
+				}
+
+			}
+
+			// Property change for Priority
+			PendingTicketPage.getInstance().clickCannedActionPriority();
+			List<WebElement> PriorityList = PendingTicketPage.getInstance().getTextCannedActionPriorityList();
+
+			for (int i = 0; i <= PriorityList.size(); i++) {
+				if (PriorityList.get(i).getText().equalsIgnoreCase(data.get(2))) {
+					PriorityList.get(i).click();
+					LOGGER.info("Verify the ticket property changes for priority");
+					break;
+				}
+
+			}
+
+			// Property change for tags
+			PendingTicketPage.getInstance().clickCannedActionAddTags();
+//			PendingTicketPage.getInstance().enterCannedActionAddTagsValue(data.get(3));
+			PendingTicketPage.getInstance().clickPendingTicketAddRepay();
+			PendingTicketPage.getInstance().clickPendingTicketsClose();
+			Thread.sleep(15000);
+			System.out.println("Working");
+
+		} catch (Exception e) {
+
+		}
 
 	}
 
-	@Given("Delete the status.")
-	public void delete_the_status() {
+	@Given("Delete the priority.")
+	public void delete_the_priority() throws IOException, InterruptedException {
+		try {
+			System.out.println("Working");
+			TicketsPage.getInstance().clickTickets();
+			System.out.println("Working");
+			TicketsPage.getInstance().clickPriorities();
+			Thread.sleep(2000);
+
+			ArrayList<String> priorityData = dataDriven.getInstance().getData("PRIORITIES");
+
+			List<WebElement> PriorityName = PriorityPage.getInstance().getPriorityNameTable();
+			Thread.sleep(3000);
+			for (int i = 0; i < PriorityName.size(); i++) {
+//		System.out.println(PriorityName.get(i).getText());
+				if (PriorityName.get(i).getText().equalsIgnoreCase(priorityData.get(1))) {
+
+					PriorityName.get(i).click();
+
+					break;
+
+				}
+			}
+
+			PendingTicketPage.getInstance().clickPriorityDelete();
+			Thread.sleep(1000);
+			PendingTicketPage.getInstance().clickPriorityDeleteDescription();
+
+			List<WebElement> PriorityDescriptionList = PendingTicketPage.getInstance()
+					.getPriorityDeleteDescriptionList();
+
+			for (int i = 0; i <= PriorityDescriptionList.size(); i++) {
+				if (PriorityDescriptionList.get(i).getText().equalsIgnoreCase(priorityData.get(3))) {
+					PriorityDescriptionList.get(i).click();
+					LOGGER.info("Select the Dropdown Low");
+					break;
+				}
+
+			}
+			PendingTicketPage.getInstance().clickFinalPriorityDeleteButton();
+			LOGGER.info("Delete the priority.");
+
+		} catch (Exception e) {
+			LOGGER.error(e);
+		}
 
 	}
 
-	@When("Delete the priority.")
-	public void delete_the_priority() {
+	@When("Delete the status.")
+	public void delete_the_status() throws InterruptedException, IOException {
+		try {
+			ArrayList<String> statusData = dataDriven.getInstance().getData("STATUSES");
+
+			Thread.sleep(3000);
+//			TicketsPage.getInstance().clickManageStatuses();
+			TicketsPage.getInstance().clickStatuses();
+			Thread.sleep(3000);
+
+			List<WebElement> StatusName = PriorityPage.getInstance().getPriorityNameTable();
+			Thread.sleep(3000);
+			for (int i = 0; i < StatusName.size(); i++) {
+//				System.out.println(StatusName.get(i).getText());
+				if (StatusName.get(i).getText().equalsIgnoreCase(statusData.get(1))) {
+					StatusName.get(i).click();
+					break;
+
+				}
+			}
+
+			PendingTicketPage.getInstance().clickStatusDelete();
+			Thread.sleep(2000);
+			PendingTicketPage.getInstance().clickStatusDeleteDescription();
+
+			List<WebElement> StatusDescriptionList = PendingTicketPage.getInstance().getStatusDeleteDescriptionList();
+			Thread.sleep(1000);
+			for (int i = 0; i <= StatusDescriptionList.size(); i++) {
+				if (StatusDescriptionList.get(i).getText().equalsIgnoreCase(statusData.get(4))) {
+					StatusDescriptionList.get(i).click();
+
+					LOGGER.info("Select the Dropdown Closed");
+					break;
+				}
+
+			}
+
+			PendingTicketPage.getInstance().clickFinalStatusDeleteButton();
+			Thread.sleep(9000);
+			LOGGER.info("Delete the status.");
+
+		} catch (Exception e) {
+			LOGGER.error(e);
+		}
 
 	}
 
 	@Then("Logout from the agent portal and terminate the driver.")
-	public void logout_from_the_agent_portal_and_terminate_the_driver() {
+	public void logout_from_the_agent_portal_and_terminate_the_driver() throws InterruptedException {
+		try {
+			PendingTicketPage.getInstance().clickAvatarImg();
+			PendingTicketPage.getInstance().clickLogoutButton();
+			LOGGER.info("Logout from the agent portal ");
+
+			DriverManager.getDriver().close();
+			LOGGER.info("Terminate the Driver");
+
+		} catch (Exception e) {
+
+		}
 
 	}
 
