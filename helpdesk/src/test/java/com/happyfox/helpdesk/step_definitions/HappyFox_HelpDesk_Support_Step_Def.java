@@ -165,12 +165,13 @@ public class HappyFox_HelpDesk_Support_Step_Def {
 			Thread.sleep(2000);
 			NewTicketPage.getInstance().clickCreateTicketButton();
 
-			Thread.sleep(4000);
+			Thread.sleep(6000);
 			String ActualTitle = NewTicketPage.getInstance().getTitleOfTicketPage();
 			String ExcpectedTitle = ticketCreationData.get(6);
 			Assert.assertEquals(ActualTitle, ExcpectedTitle);
 			LOGGER.info("New Ticket is Created");
-
+			
+			Thread.sleep(3000);
 			CommonUtils.getInstance().takeScreenshot();
 			Thread.sleep(2000);
 

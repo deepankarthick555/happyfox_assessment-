@@ -94,7 +94,7 @@ public class CommonUtils {
 
 		try {
 
-			FileUtils.copyFile(screenshot, new File(Common_Step_Definition.getScenarioName() + ".png"));
+			FileUtils.copyFile(screenshot, new File("SupportCenterHomePage" + ".png"));
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
