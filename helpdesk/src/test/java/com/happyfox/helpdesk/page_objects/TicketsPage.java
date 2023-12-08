@@ -18,11 +18,11 @@ public class TicketsPage {
 			return ticketsPageInstance;
 	}
 	
-	@FindBy(xpath="//*[contains(text(),'Tickets')]")
+	@FindBy(xpath="//div[@data-test-id='module-switcher_trigger']/span")
 	private WebElement TICKETS;
 	
 	
-	@FindBy(xpath="//a[contains(text(),'Statuses')]")
+	@FindBy(xpath="//a[contains(@href,'/staff/manage/statuses')]")
 	private WebElement STATUSES;
 	
 	@FindBy(xpath="//a[contains(text(),'Priorities')]")
@@ -40,31 +40,52 @@ public class TicketsPage {
 	@FindBy(xpath="//a[contains(text(),'Statuses')]")
 	private WebElement MANAGE_STATUSES;
 	
+	public void clickManageStatuses() {
+		MANAGE_STATUSES.click();
+	}
 	
+	public void clickPriorities() {
+		PRIORITIES.click();
+	}
 	
-	public WebElement getMANAGE_STATUSES() {
-		return MANAGE_STATUSES;
+	public void clickAddPriorities() {
+		ADD_PRIORITIES.click();
 	}
-
-	public WebElement getADDSTATUSES() {
-		return ADD_STATUSES;
+	
+	public void clickTickets() {
+		TICKETS.click();
 	}
-
-	public WebElement getADDPRIORITIES() {
-		return ADD_PRIORITIES;
+	
+	public void clickStatuses() {
+		STATUSES.click();
 	}
-
-	public WebElement getSTATUSES() {
-		return STATUSES;
+	
+	public void clickAddStatuses() {
+		ADD_STATUSES.click();
 	}
-
-	public WebElement getPRIORITIES() {
-		return PRIORITIES;
-	}
-
-	public WebElement getTICKETS() {
-		return TICKETS;
-	}
+//	public WebElement getMANAGE_STATUSES() {
+//		return MANAGE_STATUSES;
+//	}
+//
+//	public WebElement getADDSTATUSES() {
+//		return ADD_STATUSES;
+//	}
+//
+//	public WebElement getADDPRIORITIES() {
+//		return ADD_PRIORITIES;
+//	}
+//
+//	public WebElement getSTATUSES() {
+//		return STATUSES;
+//	}
+//
+//	public WebElement getPRIORITIES() {
+//		return PRIORITIES;
+//	}
+//
+//	public WebElement getTICKETS() {
+//		return TICKETS;
+//	}
 
 	
 	

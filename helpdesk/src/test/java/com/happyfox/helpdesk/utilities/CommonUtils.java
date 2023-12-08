@@ -1,7 +1,10 @@
 package com.happyfox.helpdesk.utilities;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Properties;
+import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -64,6 +67,28 @@ public class CommonUtils {
 		PageFactory.initElements(DriverManager.getDriver(), PendingTicketPage.getInstance());
 	}
 
+	public void login() {
+
+		DriverManager.getDriver().get(Constants.AGENT_LOGIN_URL);
+
+		LoginPage.getInstance().enterUserName(Constants.USERNAME);
+		LoginPage.getInstance().enterPassword(Constants.PASSWORD);
+		LoginPage.getInstance().clickLoginButton();
+
+	}
+
+	public void switchToNextTab(String tab1, String tab2) {
+		Set<String> tabs = DriverManager.getDriver().getWindowHandles();
+		Iterator<String> it = tabs.iterator();
+		tab1 = it.next();
+		tab2 = it.next();
+		DriverManager.getDriver().switchTo().window(tab1);
+		DriverManager.getDriver().close();
+		DriverManager.getDriver().switchTo().window(tab2);
+	}
+
+	
+
 	public void takeScreenshot() {
 		File screenshot = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
 
@@ -75,4 +100,6 @@ public class CommonUtils {
 			System.out.println(e.getMessage());
 		}
 	}
+
+	
 }

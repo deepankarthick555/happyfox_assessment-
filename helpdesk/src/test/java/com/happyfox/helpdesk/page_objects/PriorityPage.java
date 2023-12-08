@@ -35,24 +35,45 @@ public class PriorityPage {
 	@FindBy(xpath = "//tbody[@class='lt-body']/tr/td[5]")
 	private List<WebElement> DEFAULT_PRIORITY_TABLE;
 
-	public List<WebElement> getPRIORITY_NAME_TABLE() {
-		return PRIORITY_NAME_TABLE;
+//	public List<WebElement> getPRIORITY_NAME_TABLE() {
+//		return PRIORITY_NAME_TABLE;
+//	}
+//
+//	public List<WebElement> getDEFAULT_PRIORITY_TABLE() {
+//		return DEFAULT_PRIORITY_TABLE;
+//	}
+
+//	public WebElement getPRIORITY_ADD_BUTTON() {
+//		return PRIORITY_ADD_BUTTON;
+//	}
+//
+//	public WebElement getPRIORITY_NAME() {
+//		return PRIORITY_NAME;
+//	}
+//
+//	public WebElement getPRIORITY_DESCRIPTION() {
+//		return PRIORITY_DESCRIPTION;
+//	}
+	
+	public List<WebElement> getDefaultPriorityTable() {
+		
+		return  DEFAULT_PRIORITY_TABLE;
+	}
+	public List<WebElement> getPriorityNameTable() {
+		return  PRIORITY_NAME_TABLE;
 	}
 
-	public List<WebElement> getDEFAULT_PRIORITY_TABLE() {
-		return DEFAULT_PRIORITY_TABLE;
+	public void enterPriorityName(String priorityName) {
+		PRIORITY_NAME.sendKeys(priorityName);
 	}
-
-	public WebElement getPRIORITY_ADD_BUTTON() {
-		return PRIORITY_ADD_BUTTON;
+	
+	public void enterDescriptionName(String descriptionName) {
+		PRIORITY_DESCRIPTION.sendKeys(descriptionName);
 	}
-
-	public WebElement getPRIORITY_NAME() {
-		return PRIORITY_NAME;
+	
+	public void clickPriorityAddButton() {
+		PRIORITY_ADD_BUTTON.click();
 	}
-
-	public WebElement getPRIORITY_DESCRIPTION() {
-		return PRIORITY_DESCRIPTION;
-	}
-
+	
+	
 }
